@@ -1,11 +1,12 @@
 
 void main(){
 
-  var yilmaz = 'yilmaz 30';
-  var ahmet = 'ahmet 20';
-  print('buraya kadar çalış');
+   var a = 3;
+   switch(a)
+   {
+     case a:
+       print('sayınız üçtür');
+   }
 
-  var birlesim = yilmaz + ' ' + ahmet;
 
-  print('$birlesim');
 }
