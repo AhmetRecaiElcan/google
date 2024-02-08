@@ -1,12 +1,18 @@
+import 'dart:math';
 
-void main(){
+void main() {
+  final elma = <String>{'e', 'l', 'm', 'a'};
+  final edis = {
+    'a': 'elma',
+    'b': 'armut',
+    'c': 'kiraz',
+  };
 
-   var a = 3;
-   switch(a)
-   {
-     case a:
-       print('sayınız üçtür');
-   }
+  print(elma);
 
-
+  elma.addAll(['l', 'a', 'r']);
+  print(elma);
+  print(edis);
+  edis['c'] = 'armut';
+  print(edis);
 }
