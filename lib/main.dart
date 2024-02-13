@@ -1,18 +1,9 @@
-import 'dart:math';
+void main(){
+  int numara = 231307036;
 
-void main() {
-  final elma = <String>{'e', 'l', 'm', 'a'};
-  final edis = {
-    'a': 'elma',
-    'b': 'armut',
-    'c': 'kiraz',
-  };
+  print(numara);
 
-  print(elma);
-
-  elma.addAll(['l', 'a', 'r']);
-  print(elma);
+  String? edis;
   print(edis);
-  edis['c'] = 'armut';
-  print(edis);
+
 }
